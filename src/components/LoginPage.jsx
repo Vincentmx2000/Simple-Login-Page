@@ -6,7 +6,7 @@ function LoginPage() {
     return (
         <div className="container">
             <div className="login">
-            <h1>LOGIN</h1>
+                <h1>LOGIN</h1>
             </div>
             <form className="input">
                 <div className="email">
@@ -17,8 +17,11 @@ function LoginPage() {
                     <p>Password :</p>
                     <input type="password" placeholder="Enter Password" />
                 </div>
+                <div className="forgot">
+                    <a href="#">Forgot Password</a>
+                </div>
                 <div className="button">
-                <button>Login</button>
+                    <button>Login</button>
                 </div>
             </form>
 
